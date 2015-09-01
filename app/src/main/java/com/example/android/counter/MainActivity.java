@@ -1,4 +1,3 @@
-
 package com.example.android.counter;
 
 import android.os.Bundle;

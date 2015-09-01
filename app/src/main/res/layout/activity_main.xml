@@ -1,14 +1,12 @@
-
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_horizontal"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:gravity="center_horizontal"
     tools:context=".MainActivity">
 
     <RelativeLayout
@@ -32,37 +30,37 @@
                 android:id="@+id/aScore_board"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0"
                 android:padding="20dp"
+                android:text="0"
                 android:textSize="30sp" />
 
             <Button
                 android:id="@+id/aThree"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="+3 POINTS"
-                android:onClick="aThree"/>
+                android:onClick="aThree"
+                android:text="+3 POINTS" />
 
             <Button
                 android:id="@+id/aTwo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="+2 POINTS"
-                android:onClick="aTwo"/>
+                android:onClick="aTwo"
+                android:text="+2 POINTS" />
 
             <Button
                 android:id="@+id/aFree"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="aFree"
                 android:text="Free throw"
-                android:textSize="15sp"
-                android:onClick="aFree"/>
+                android:textSize="15sp" />
         </LinearLayout>
 
         <LinearLayout
-            android:layout_toRightOf="@id/team"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/team"
             android:gravity="center_horizontal"
             android:orientation="vertical"
             android:padding="20dp">
@@ -76,31 +74,31 @@
                 android:id="@+id/bScore_board"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0"
                 android:padding="20dp"
+                android:text="0"
                 android:textSize="30sp" />
 
             <Button
                 android:id="@+id/bThree"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="+3 POINTS"
-                android:onClick="bThree"/>
+                android:onClick="bThree"
+                android:text="+3 POINTS" />
 
             <Button
                 android:id="@+id/bTwo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="+2 POINTS"
-                android:onClick="bTwo"/>
+                android:onClick="bTwo"
+                android:text="+2 POINTS" />
 
             <Button
                 android:id="@+id/bFree"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="bFree"
                 android:text="Free throw"
-                android:textSize="15sp"
-                android:onClick="bFree"/>
+                android:textSize="15sp" />
         </LinearLayout>
 
         <Button
@@ -109,11 +107,10 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:text="RESET"
-            android:onClick="reset"/>
+            android:onClick="reset"
+            android:text="RESET" />
 
     </RelativeLayout>
-
 
 
 </LinearLayout>
